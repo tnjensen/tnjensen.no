@@ -11,11 +11,11 @@ export default function Contact(){
                     <h2 className="text-xl">Personal details:</h2>
                     <div className="flex gap-2 items-center">
                         <FaPerson />
-                        <h4 className="contact-name">Thomas N. Jensen</h4>
+                        <p className="contact-name">Thomas N. Jensen</p>
                     </div>
                     <div className="flex gap-2 items-center">
                         <FaEnvelope />
-                        <h4 className="contact-email"><a href="mailto:thomasnorupjensen@gmail.com">Email</a></h4>
+                        <p className="contact-email"><a href="mailto:thomasnorupjensen@gmail.com">Email</a></p>
                     </div>
                 </div>
                 <div className="md:w-5/12 flex flex-col">

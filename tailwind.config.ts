@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        sans: ['var(--font-lato)'],
+        serif: ['var(--font-playfair)']  
+      },
       keyframes: {
         "slide": {
           from: {
@@ -29,6 +33,8 @@ export default {
         foreground: "var(--foreground)",
         "btn-more": "var(--dark-gray)",
         "btn-more-hover": "var(--light-gray)",
+        "text-blue": "var(--dark-blue)",
+        "text-red": "var(--header)",
       },
       animation: {
         'slide': 'slide 1.2s ease-in-out'
