@@ -7,7 +7,7 @@ export function Main() {
       <h1 className="text-2xl text-blue-700">Thomas</h1>
       <p className="mb-2">
         and I&apos;m a{" "}
-        <span className="text-xl font-serif font-bold text-text-red px-1">
+        <span className="text-2xl font-serif font-bold text-text-red px-1">
           frontend developer
         </span>
       </p>
