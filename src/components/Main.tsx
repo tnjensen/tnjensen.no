@@ -4,7 +4,7 @@ export function Main() {
     return (
     <main className="flex flex-col justify-around py-3 px-5 py-5 md:px-12 md:py-12 mx-auto pb-6">
       <p className="text-lg">Hello, my name is</p>
-      <h1 className="text-2xl text-blue-700">Thomas</h1>
+      <h1 className="text-blue-700">Thomas</h1>
       <p className="mb-2">
         and I&apos;m a{" "}
         <span className="text-2xl font-serif font-bold text-text-red px-1">

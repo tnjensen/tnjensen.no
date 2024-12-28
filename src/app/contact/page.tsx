@@ -5,7 +5,7 @@ import { FaPerson } from "react-icons/fa6";
 export default function Contact(){
     return(
         <div className="py-4 mx-auto">
-                <h1 className="text-2xl text-center">Contact</h1>
+                <h1 className="text-center">Contact</h1>
             <div className="flex flex-col justify-center px-4 mt-12 gap-6 md:flex-row md:justify-around md:px-2">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-xl">Personal details:</h2>

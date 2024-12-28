@@ -10,7 +10,8 @@ export default {
     extend: {
       fontFamily:{
         sans: ['var(--font-lato)'],
-        serif: ['var(--font-playfair)']  
+        serif: ['var(--font-playfair)'],
+        display: ['var(--font-playfair-display)']
       },
       keyframes: {
         "slide": {

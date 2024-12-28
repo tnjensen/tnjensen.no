@@ -16,7 +16,7 @@ export function Header() {
             title="Home"
           >
             <img src="/images/elvehavn_1.jpg" alt="avatar" className="rounded-full m-1" width={30} height={30} />
-            <h1 className="hidden sm:block text-xl font-bold italic">
+            <h1 className="hidden sm:block text-lg font-display font-bold italic">
               Thomas N. Jensen
             </h1>
           </Link>

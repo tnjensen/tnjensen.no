@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Playfair, Lato } from "next/font/google";
+import { Playfair, Playfair_Display, Lato } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 const playfair = Playfair({
+  weight: '400',
   subsets: ["latin"],
   display: "swap",
   variable: "--font-playfair",
+});
+const playfairDisplay = Playfair_Display({
+  weight: '400',
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair-display",
 });
 const lato = Lato({
   weight: '400',
@@ -28,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.variable} ${playfair.variable}`}>
+      <body className={`${lato.variable} ${playfair.variable} ${playfairDisplay.variable}`}>
         <div>
           <Header />
           <div className="mx-auto min-h-[calc(100vh-80px)] bg-stone-200 w-full max-w-7xl">

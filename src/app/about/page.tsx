@@ -4,7 +4,7 @@ import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
 function About() {
   return (
     <div className="px-6 mx-auto">
-      <h2 className="text-2xl py-4 text-center pb-12">About me</h2>
+      <h1 className="py-4 text-center pb-12">About me</h1>
       <div className="flex flex-col gap-4 justify-center">
         <p className="mx-auto article">
           When I was still in high-school, my father bought a Commodore 64. 
